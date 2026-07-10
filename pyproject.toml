@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper-distiller"
+version = "0.1.0"
+description = "A multi-pass paper distillation agent for founders and startup researchers."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Paper Distiller" }]
+dependencies = []
+
+[project.optional-dependencies]
+pdf = [
+  "pypdf>=4.0.0",
+  "pdfplumber>=0.11.0"
+]
+providers = [
+  "openai>=1.0.0",
+  "anthropic>=0.34.0",
+  "requests>=2.31.0"
+]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.6.0"
+]
+
+[project.scripts]
+paper-distiller = "paper_distiller.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+

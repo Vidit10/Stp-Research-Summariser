@@ -1,0 +1,39 @@
+Title: Trust Signals in AI Advice Systems
+
+Abstract
+This study examines whether explanation quality and source disclosure affect user trust in
+AI-generated financial advice. The authors conducted a controlled online experiment with
+240 participants. Participants were randomly assigned to advice generated with no explanation,
+a brief explanation, or a detailed explanation with source disclosure.
+
+Introduction
+Consumer adoption of AI advice systems depends on whether users understand why a
+recommendation is being made. The paper asks whether transparent explanations increase trust
+without increasing over-reliance.
+
+Methods
+The experiment used three conditions and measured perceived trust, intention to follow advice,
+and calibration after participants reviewed six hypothetical investment scenarios. The authors
+used analysis of variance and regression controls for prior investing experience.
+
+Results
+Detailed explanations with source disclosure increased reported trust by 18 percent compared
+with no explanation. The effect was statistically significant at p < 0.05. Brief explanations
+increased trust by 7 percent, but this result was not statistically significant. The authors found
+no significant improvement in calibration, meaning participants were not better at identifying
+bad advice.
+
+Limitations
+The authors state that the scenarios were hypothetical and did not involve real money. The
+sample was recruited online and may not represent high-net-worth investors or professional
+financial advisors. The study did not test long-term behavior or regulatory disclosure wording.
+
+Discussion
+The authors conclude that transparency can improve user trust, but trust should not be treated
+as proof of better user judgment. Figure 1 shows the experimental flow. Table 2 summarizes
+trust outcomes by condition.
+
+Conclusion
+AI financial advice products may benefit from detailed explanations and source disclosure, but
+additional safeguards are needed to prevent misplaced confidence.
+
